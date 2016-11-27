@@ -1,0 +1,35 @@
+package HouseNTech;
+
+public class House {
+
+	private int address;
+	private String houseName;
+	
+	public House(int ad, String name){
+		
+		address = ad;
+		houseName = name;
+	}
+	
+	public void watchMovie(){
+		
+		System.out.println("Watching Pirates of Carribean");
+	}
+	public void goToSleep(){
+		
+		System.out.println("Sleeping now");
+	}
+	public void cookDinner(){
+		
+		System.out.println("Cooking chicken with broccoli");
+	}
+	public String houseName(){
+		
+		return houseName;
+	}
+	public int address(){
+		
+		return address;
+	}
+	
+}

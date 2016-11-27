@@ -1,0 +1,16 @@
+package HouseNTech;
+
+public class TestHouse {
+
+	public static void main(String[] args) {
+
+		House myHouse = new House(3213, "Foxvale");
+		
+		myHouse.watchMovie();
+		myHouse.cookDinner();
+		myHouse.goToSleep();
+		myHouse.houseName();
+		System.out.println(myHouse.toString() ); //method from Object class
+	}
+
+}
